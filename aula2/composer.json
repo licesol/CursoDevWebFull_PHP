@@ -1,0 +1,23 @@
+{
+  "name": "alice/aula2",
+  "authors": [
+    {
+      "name": "Alice",
+      "email": "alicefabiulassf@gmail.com"
+    }
+  ],
+  "require": {},
+
+  "autoload" : {
+    "psr-4": {
+      "App\\" : "app/",
+      "Src\\" : "src/",
+      "Database\\" : "database/"
+    },
+    "files" : [
+      "src/helpers/helper_routes.php"
+    ]
+
+  }
+}
+
